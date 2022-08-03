@@ -1,0 +1,25 @@
+{
+  "name": "babel-usage",
+  "version": "1.0.0",
+  "description": "babel usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamayaA/babel_usage.git"
+  },
+  "author": "samaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamayaA/babel_usage/issues"
+  },
+  "homepage": "https://github.com/SamayaA/babel_usage#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  }
+}
